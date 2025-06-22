@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.send(`Hello from our container! Version: ${version}. Deployed automatically!`);
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on <http://localhost>:${PORT}`);
 });
 // trigger run
