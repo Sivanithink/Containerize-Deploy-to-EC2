@@ -29,5 +29,6 @@
 - although it was done but not able get the output in http://43.205.191.188:3000/ because
 - added packages: write permission and included the docker/metadata-action@v5 to generate proper tags and labels.
 - Used correct tag :main instead of :latest while pulling the image. using docker pull ghcr.io/sivanithink/containerize-deploy-to-ec2:main
+- Fixed image tagging error by replacing ${{ github.repository }} with lowercase ghcr.io/sivanithink/containerize-deploy-to-ec2.
 - Generated a classic Personal Access Token (PAT) with write:packages, then logged in echo echo ghp_SlIJsCBNjJfUZ1Fxl0NyjHFkh7bf5O3rF*** | docker login ghcr.io -u Sivanithink --password-stdin
 ![Screenshot (170)](https://github.com/user-attachments/assets/352cfee4-5def-4ecc-84da-6d2a59cd28a1)
