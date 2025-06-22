@@ -1,4 +1,4 @@
-###Github Actions Take home assignmnet Containerize & Deploy to EC2
+### Github Actions Take home assignmnet Containerize & Deploy to EC2
 ## Step-1 The Application Stack
 - created app.js and dockerfile and got package.json by  running npm init
 - ![Screenshot (172)](https://github.com/user-attachments/assets/647a07ed-1c82-4da3-bbe4-23f008fcffe1)
