@@ -33,7 +33,7 @@
 - Generated a classic Personal Access Token (PAT) with write:packages, then logged in echo echo ghp_SlIJsCBNjJfUZ1Fxl0NyjHFkh7bf5O3rF*** | docker login ghcr.io -u Sivanithink --password-stdin
 ![Screenshot (170)](https://github.com/user-attachments/assets/352cfee4-5def-4ecc-84da-6d2a59cd28a1)
 
-### 2) # Deploying-a-Web-Application-on-Kubernetes
+### 2) Deploying-a-Web-Application-on-Kubernetes
 ## step-1 Generate Base64-Encoded Credential
 we encoded our secrets using base64 by running 
 echo -n 'my-admin-sivanithin-user' | base64
